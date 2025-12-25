@@ -81,16 +81,26 @@ body {
 }
 
 .hero {
-    position: relative; 
-    height: 92vh;
-    min-height: 60vh; 
-    background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../photo/header.png");
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: 70vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        min-height: 60vh;
+    }
+}
+
 
 .hero-content {
     position: relative;
