@@ -1,0 +1,226 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #ebebeb;
+    color: #fff;
+}
+
+.judul{
+    font-size: 13rem;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  display: block;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: relative; 
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px 0;
+    position: relative;
+    transition: color 0.3s ease, background 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 20px;
+    border-radius: 8px;
+}
+
+.nav-link:hover {
+    color: #ccc;
+}
+
+.main-content {
+    margin-top: 70px;
+}
+
+.hero {
+    position: relative; 
+    height: 92vh;
+    min-height: 60vh; 
+    background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.kelompok{
+    width: 100%;
+    height: 50rem;
+    padding: 20px 20px;
+}
+
+.kelompok.bagian-1{
+    background-color: #fff;
+    color: #000;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.kelompok.bagian-2{
+    background-color: orange;
+    color: #000;
+}
+
+.kelompok.bagian-3{
+    background-color: brown;
+}
+
+.kelompok.bagian-4{
+    background-color: white;
+}
+
+.kelompok.bagian-5{
+    background-color: pink;
+}
+
+.kelompok.bagian-6{
+    background-color: lightblue;
+}
+
+.kelompok.bagian-7{
+    background-color: purple;
+}
+
+.kelompok.bagian-8{
+    background-color: gray;
+}
+
+.kelompok.bagian-9{
+    background-color: darkblue;
+}
+
+.kelompok.bagian-10{
+    background-color: cyan;
+}
+
+.tulisan-kiri {
+    display: flex;
+    flex-direction: column;
+}
+
+.gambar-kiri img{
+    width: 780px;
+    height: 700px;
+    margin-right: 250px;
+    border-color: #000;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+
+.gambar-kiri img:hover {
+    border-color: #fff;
+    padding: 2.5rem;
+    border-radius: 60px;
+}
+
+.gambar-kanan img{
+    align-items: right;
+    width: 780px;
+    height: 700px;
+    margin-left: 250px;
+    border-color: #000;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+
+.gambar-kanan img:hover {
+    border-color: #fff;
+    padding: 2.5rem;
+    border-radius: 60px;
+}
+
+.tulisan h1{
+    font-size: 5rem;
+    margin-bottom: 80px;
+}
+
+.tulisan h3{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.tulisan p{
+    font-size: 1.5rem;
+}
+
+.panel-kiri{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: left;
+    text-align: left;
+    margin: 20px;
+}
+
+.panel-kanan{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: right;
+    text-align: right;
+    margin: 20px;
+}
+
+.footer {
+  background: rgba(0,0,0,0.95);
+  border-top: 1px solid #333;
+  text-align: center;
+  color: #fff;
+  padding: 20px 0 20px 0;
+  font-size: 1rem;
+  margin-top: 0px;
+}
