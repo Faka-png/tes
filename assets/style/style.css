@@ -89,21 +89,6 @@ body {
     background-repeat: no-repeat;
 }
 
-@media (max-width: 768px) {
-    .hero {
-        min-width: fit-content;
-        min-height: 70vh;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero {
-        min-width: fit-content;
-        min-height: 60vh;
-    }
-}
-
-
 .hero-content {
     position: relative;
     z-index: 2;
@@ -237,3 +222,4 @@ body {
   margin-top: 0px;
 
 }
+
